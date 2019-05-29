@@ -19,7 +19,7 @@ public class Principal4 {
 		System.out.print("Enter the hourly wage: ");
 		int salario = sc.nextInt();
 		
-		double sf = horas;
+		double sf = (horas * salario);
 		
 		System.out.printf("Número: %d %n", numero);
 		System.out.printf("Salário Final: %.2f %n", sf);
